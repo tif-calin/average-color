@@ -90,6 +90,22 @@ document.ondrop = function(event) {
   handleImages(event.dataTransfer.files);
 };
 
+// Handle clipboard paste
+document.addEventListener("paste", function(event) {
+  var items = event.clipboardData.items;
+  var files = [];
+
+  for (var i = 0; i < items.length; i++) {
+    if (items[i].type.indexOf("image") !== -1) {
+      files.push(items[i].getAsFile());
+    }
+  }
+
+  if (files.length > 0) {
+    handleImages(files);
+  }
+});
+
 (function() {
   var upload = document.getElementById("upload");
   var target = document.getElementById("target");
