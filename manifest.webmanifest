@@ -17,13 +17,6 @@
           "icons": [
                 { "src": "icons/home-icon-192x192.png", "sizes": "192x192" }
             ]
-        },
-        {
-          "name": "About this app",
-          "short_name": "About",
-          "description": "View information regarding this app",
-          "url": "/about",
-          "icons": [{ "src": "icons/about-icon-192x192.png", "sizes": "192x192" }]
         }
     ],
     "icons": [
