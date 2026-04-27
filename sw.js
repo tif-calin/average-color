@@ -9,10 +9,8 @@ var urls = [
   "average-color.js",
   "icons/icon-192x192.png", // Default favicon size fetched by Chrome on desktop
   "icons/apple-touch-icon-512x512.png", // Apple touch icon
-  "icons/about-icon-192x192.png", // PWA shortcut icon
   "icons/home-icon-192x192.png", // PWA shortcut icon
   "sw.js",
-  "about",
 ];
 
 self.addEventListener("install", function (event) {

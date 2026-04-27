@@ -134,10 +134,6 @@ aside {
   left: 15px;
 }
 
-#footer {
-  margin: 40px 0;
-}
-
 #upload {
   position: absolute;
   left: -9999px;
@@ -159,25 +155,12 @@ aside {
     color: var(--accent-color-light);
   }
 
-  a[href="about"] {
-    color: #ddd;
-    opacity: 0.8;
-  }
-
   #target {
     border: 2px dashed #646464;
   }
 
   .color ul {
     opacity: 0.9;
-  }
-}
-
-@media screen and (prefers-color-scheme: light) {
-  #about-btn {
-      font-weight: 400;
-      color: inherit;
-      opacity: 0.8;
   }
 }
 
@@ -194,7 +177,7 @@ aside {
   body {
     padding: 0 30px;
   }
-  
+
   .row {
     flex-direction: column;
     align-items: center;

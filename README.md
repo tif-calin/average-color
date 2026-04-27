@@ -1,26 +1,11 @@
-# Get the average colour of an image
+# Get the average color of an image
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/30c5286d-83dd-486c-a2ff-99a0af616ba1/deploy-status)](https://app.netlify.com/sites/avg-colour/deploys)
+This is a fork of a fork just so I can add the ability to paste an image from the clipboard. The [original project](https://github.com/matkl/average-color) is just a simple html file and some javascript. The [second author turned it into a PWA](https://github.com/ThomasRettig/average-color) but also relied on Netlify and added other dependencies I feel were unnecessary. This project:
 
-Client-side JavaScript application to get the average colour of an image.
-
-View the demo:
-+ [Netlify](https://avg-colour.netlify.app/)
-+ [Github Pages](https://thomasrettig.github.io/average-color/)
-
-Check it out on the Project Fugu API showcase:
-
-https://developer.chrome.com/blog/fugu-showcase/?api=add-to-home-screen#avg-colour.netlify.app
-
-## Author
-
-**Matthias Klein**
-
-+ [http://matthiasklein.me](https://matthiasklein.me)
-+ [https://github.com/matkl](https://github.com/matkl)
-
-**Thomas Rettig**
-+ [https://thmsrttg.netlify.app](https://thmsrttg.netlify.app)
+- adds paste support,
+- maintains PWA functionality, but simplifies the project so it can be hosted as a static site on GH Pages again.
+- Also I de-Britishized it.
 
 ## License
+
 MIT

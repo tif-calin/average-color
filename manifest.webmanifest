@@ -5,27 +5,9 @@
     "orientation": "any",
     "scope": "/",
     "start_url": "/",
-    "name": "Average Colour",
-    "description": "A tool to find the average colour in an image.",
-    "short_name": "AvgColour",
-    "shortcuts": [
-        {
-          "name": "Homepage",
-          "short_name": "Home",
-          "description": "Homepage",
-          "url": "/",
-          "icons": [
-                { "src": "icons/home-icon-192x192.png", "sizes": "192x192" }
-            ]
-        },
-        {
-          "name": "About this app",
-          "short_name": "About",
-          "description": "View information regarding this app",
-          "url": "/about",
-          "icons": [{ "src": "icons/about-icon-192x192.png", "sizes": "192x192" }]
-        }
-    ],
+    "name": "Average Color",
+    "description": "A tool to find the average color in an image.",
+    "short_name": "AvgColor",
     "icons": [
         {
             "src": "icons/icon-192x192.png",
