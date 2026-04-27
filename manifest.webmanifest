@@ -5,9 +5,9 @@
     "orientation": "any",
     "scope": "/",
     "start_url": "/",
-    "name": "Average Colour",
-    "description": "A tool to find the average colour in an image.",
-    "short_name": "AvgColour",
+    "name": "Average Color",
+    "description": "A tool to find the average color in an image.",
+    "short_name": "AvgColor",
     "shortcuts": [
         {
           "name": "Homepage",
