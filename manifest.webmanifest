@@ -8,17 +8,6 @@
     "name": "Average Color",
     "description": "A tool to find the average color in an image.",
     "short_name": "AvgColor",
-    "shortcuts": [
-        {
-          "name": "Homepage",
-          "short_name": "Home",
-          "description": "Homepage",
-          "url": "/",
-          "icons": [
-                { "src": "icons/home-icon-192x192.png", "sizes": "192x192" }
-            ]
-        }
-    ],
     "icons": [
         {
             "src": "icons/icon-192x192.png",

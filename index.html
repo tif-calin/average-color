@@ -67,6 +67,22 @@
           });
         });
       });
+
+      // Detect if PWA is already installed
+      window.addEventListener("appinstalled", () => {
+        addBtn.textContent = "✓ Installed";
+        addBtn.style.display = "block";
+        addBtn.disabled = true;
+        addBtn.style.opacity = "0.6";
+      });
+
+      // Fallback message for non-Chrome browsers
+      if (!window.chrome) {
+        addBtn.textContent = "Install via browser menu";
+        addBtn.style.display = "block";
+        addBtn.style.opacity = "0.5";
+        addBtn.disabled = true;
+      }
     </script>
     <script src="average-color.js" inline></script>
   </body>
